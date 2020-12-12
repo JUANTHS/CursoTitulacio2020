@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    .contenido{
+        margin: 0 auto;
+        width: 500px;
+        padding: 2em;
+    }
+    button{
+        margin: 0 auto;
+    }
+</style>
+<body>
+    <form class="opciones" name="formulario" onsubmit="return suma()">
+        <label for="num1">Primer Numero</label>
+        <input type="number" id="num1">
+        <label for="num2">Segundo Numero</label>
+        <input type="number" id="num2">
+        <br>
+        <button type="submit">Calcular</button>
+    </form>
+    <hr>
+    <div class="calculadora" id="calculadora">
+        <label for="valor1">Primer valor</label>
+        <input type="number" id="valor1" name="valor1">
+        <label for="valor2">Segundo valor</label>
+        <input type="number" id="valor2" name="valor2">
+        <br>
+        <label for="operacion">Operación</label>
+        <select name="op" id="operacion">
+            <option value="">Seleccione una opcion</option>
+            <option value="sum">Suma</option>
+            <option value="res">Resta</option>
+            <option value="mul">Multiplicación</option>
+            <option value="div">División</option>
+        </select>
+        <br>
+        <p id="resultado"></p>
+        <br>
+        <button onclick="calculadora()">Calcular</button>
+    </div>
+    <script src="script.js">
+        /*comentarios en Script para varias lineas */
+        // para una linea
+        /*alert("Mi primer codigo de JS");
+        var a = 5;
+        var b = 3;
+        console.log("La suma de a + b = "+(a+b));
+        console.log("La resta de a - b ="+(a-b));
+        console.log("La multiplicacion de a * b ="+(a*b));
+        console.log("La division de a / b ="+(a/b));*/
+    </script>
+</body>
+</html>

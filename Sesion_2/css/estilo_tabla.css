@@ -1,0 +1,31 @@
+table{
+    width:50%;
+    border: 1px solid rgb(238, 17, 201) 
+}
+th, td{
+    padding: 15px;
+    border: 1px solid black; /* agregar un borde de color negro */
+    text-align: center; /*centrar el texto */
+    font-size: 18px;
+    font-weight: bold;
+}
+td{
+    font-size: 20px;
+}
+#encabezado{
+    background-color:lightgray;
+    color:fuchsia;
+}
+.fila2{
+    background-color: teal;
+    color:blue;
+}
+
+thead{
+    background-color: aqua;
+    color: deeppink;
+}
+tbody{
+    background-color: chartreuse;
+    color: gold;
+}
